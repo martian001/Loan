@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="js/bootstrap.js"></script>
+    <style type="text/css">
+        /*顶部全局div*/
+        .topbase {
+            border: thin solid #F00;
+            height: 113px;
+            width:inherit;
+        }
+
+        .col-md-12 {
+            border: thin solid #F00;
+        }
+
+        .col-md-4 {
+            border: thin solid #F00;
+        }
+
+        #head {
+            height: 46px;
+            background-color: #555555;
+            color: #d7d7d7;
+            font-size: 14px;
+        }
+
+        #head div {
+            line-height: 46px;
+        }
+
+        #menu_left {
+            height: 65px;
+        }
+
+        /*菜单导航字体和边距*/
+        #menu_right {
+            height: 65px;
+            padding-top: 10px;
+            color: #0099ff;
+            font-family: "微软雅黑 Bold", "微软雅黑";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        /*logo照片大小*/
+        .logoimg {
+            height: 55px;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 160px;
+        }
+
+        /*logo旁边字体*/
+        .menu_left_text {
+            font-family: "微软雅黑 Regular", "微软雅黑";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        #menu_right ul li {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="topbase">
+    <div class="row">
+        <div class="col-md-12" id="head">
+            <div class="col-md-2 col-lg-offset-1">Q房网 客服电话：xxxx xxxx xxx</div>
+            <div class="col-md-2 col-lg-offset-7">帮助 关于我们</div>
+        </div>
+        <div class="col-md-12" id="menu_left">
+            <div class="col-md-1">col-md-1</div>
+            <div class="col-md-1"><img src="images/top/logo.png" class="logoimg"></div>
+            <div class="col-md-2"><p class="menu_left_text">Q房网旗下</p>
+
+                <p class="menu_left_text">住房金融互联网平台</p></div>
+            <div class="col-md-4 col-lg-offset-3" id="menu_right">
+                <ul class="nav nav-tabs">
+                    <li role="presentation" class="active"><a href="#">首页</a></li>
+                    <li role="presentation"><a href="#">我要贷款</a></li>
+                    <li role="presentation"><a href="#">帮助中心</a></li>
+                    <li role="presentation"><a href="#">关于我们</a></li>
+                    <li role="presentation"><a href="#">商务合作</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
